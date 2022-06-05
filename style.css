@@ -309,34 +309,8 @@ fieldset legend{
   padding: 6px;
   font-weight: bold;
 }
-/* --Transf Carta Bio-- */
-.card-Container{
-  perspective: 800px;
-  justify-content: center;
-  justify-self: center;
-  
-}
-.card{
-  width: 370px;
-  height: 370px;
-  transform-style: preserve-3d;
-  position: relative;
-  transition: transform .75s cubic-bezier(0.4, 0.03, 0.5, 0.9);
-}
-.card_image{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  inset: 0;
-  object-fit: cover;
-  outline-offset: 5px;
-  backface-visibility: hidden;
-  
-}
-.card_image:nth-child(2),
-.card:hover{
-  transform: rotate3d(1,1,0, 180deg);
-}
+
+
 
 /* ---INICIO CON CONTENIDO DE HTML DRAMA--- */
 
@@ -410,6 +384,15 @@ fieldset legend{
 /*Estilo Mobile S*/
 
 @media screen and (max-width:573px){
+  .largometraje li{
+    width: 290px;
+  }
+  .cortometrajes li{
+    width: 290px;
+  }
+  .telenovelas li{
+    width: 290px;
+  }
   .FotoMain1{
     width: 400px;
   }
@@ -440,9 +423,18 @@ fieldset legend{
 }
   /*Estilo Mobile M*/
 @media screen and (max-width:418px){
-.card-container{
-  width: 220px;
-}
+  .largometraje li{
+    width: 100%;
+  }
+  .cortometrajes li{
+    width: 100%;
+  }
+  .telenovelas li{
+    width: 100%;
+  }
+.imagenBio{
+  width: 240px;
+  }
 .FotoMain1{
   width: 250px;
 }
