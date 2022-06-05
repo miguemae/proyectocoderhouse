@@ -9,6 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assets/icons/favicon-32x32.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Bio Jose Luis Actor</title>
     <title>Jose Luis Actor</title>
 </head>
 <body class="contenido">
@@ -18,23 +22,35 @@
 
     </header>
 <main>
-    <section class="menu">
+    <section class="menu text-center">
         <ul class="menu">
-            <li><a href="./pages/bio.html">Bio</a></li>
-            <li><a href="./pages/acting.html">Acting</a></li>
-            <li><a href="./pages/eventos.html">Eventos</a></li>
+            <li><a href="./pages/bio.html" class="text-light">Bio</a></li>
+            <li><a href="./pages/acting.html" class="text-light">Acting</a></li>
+            <li><a href="./pages/eventos.html" class="text-light">Eventos</a></li>
           </ul>
     </section>
-    <div class="imagen">
-        <section class="imagen">
-            <section class="cardContainer">
-                <article class="card">
-                    <img src="./assets/foto main.jpg" alt="Foto principal" width="350px" class="card_image">
-                    <img src="./assets/segundafotomain.jpg" alt="Foto Secundaria" width="350px" class="card_image">
-                </article>
-            </section>
-        </section>
-    </div><br>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/foto inicio.jpg" class="FotoMain1 d-block w-30 mx-auto" alt="JLB1">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/cantoindex.jpg" class="FotoMain2 d-block w-50 mx-auto" alt="JLB2">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/segundafotomain.jpg" class="FotoMain3 d-block w-30 mx-auto" alt="JLB3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<br>
 </main>
 <footer>
     <ul class="icons">
@@ -60,5 +76,7 @@
         </li>
     </ul>
 </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
