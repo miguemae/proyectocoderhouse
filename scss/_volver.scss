@@ -1,0 +1,18 @@
+$colorText:aliceblue;
+$font:'Bebas Neue';
+body{
+.volver{
+    transition: background-position-x 0.9s linear;
+    font-family: $font;
+    letter-spacing: 3px;
+    margin-left: 17%;
+    font-size: larger;
+    transition: background-position-x 0.9s linear;
+    opacity: 0.4;
+    &:hover{
+        color: $colorText;
+        text-shadow: 1px 1px 6px #fff;
+        opacity: 1;
+    }
+}
+}

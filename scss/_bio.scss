@@ -1,0 +1,55 @@
+$colorText:aliceblue;
+$font:'Bebas Neue';
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../assets/bgimg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+hr {
+    border: 3px solid $colorText; 
+    border-radius: 300px/10px; 
+    height: 0px; 
+    text-align: center;
+}
+
+header{
+  background-color: rgba(0, 0, 0, 0.616);
+  z-index: 1;
+  width: 100%;
+  .titulo{
+    color: $colorText;
+    font-size: 3rem;
+    text-align: center;
+    font-family: $font;
+    letter-spacing: 3px;
+    }
+    .titulo2{
+        color: $colorText;
+        font-size: 1.7rem;
+        text-align: center;
+        font-family: $font;
+        letter-spacing: 3px;
+        font-style: italic;
+    }
+    .tituloBio{
+        color: $colorText;
+        font-family: $font;
+  }
+}
+.mainBio{
+    align-content: center;
+        .overflow-auto{
+            overflow: auto;
+            height: 550px;
+    }
+}
