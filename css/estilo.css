@@ -84,7 +84,33 @@ body .volver {
 
 @media screen and (max-width: 418px) {
   .imagenBio {
-    width: 240px; } }
+    width: 240px; }
+  .largometraje li {
+    width: 100%; }
+  .cortometrajes li {
+    width: 100%; }
+  .telenovelas li {
+    width: 100%; }
+  .FotoMain1 {
+    width: 250px; }
+  .FotoMain2 {
+    width: 400px; }
+  .FotoMain3 {
+    width: 250px; }
+  .catshow {
+    width: 150px; }
+  .mexico li {
+    font-size: small; }
+  .maraibo li {
+    font-size: small; }
+  .caracas li, .mainTeatro .mexico li, .mainTeatro .maracaibo li {
+    font-size: small; }
+  .yoactor {
+    width: 250px; }
+  .factory {
+    width: 250px; }
+  .novela {
+    width: 250px; } }
 
 @media screen and (max-width: 768px) {
   .mainBio {
@@ -96,4 +122,215 @@ body .volver {
       margin-top: 10px;
       max-width: 100%;
       height: auto;
-      justify-self: center; } }
+      justify-self: center; }
+  .titulo {
+    color: aliceblue;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px; }
+  .titulo2 {
+    color: aliceblue;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+    font-style: italic; }
+  .menu {
+    font-size: medium; }
+  .caracas li, .mainTeatro .mexico li, .mainTeatro .maracaibo li {
+    align-self: center;
+    width: 300px;
+    height: 250px;
+    list-style: circle;
+    align-self: center;
+    font-size: small; }
+  .fotosTeatro {
+    width: 150px;
+    height: 200px; }
+  .mexico li {
+    font-size: small; }
+  .maracaibo li {
+    font-size: small; }
+  .tituloTeatro2 {
+    font-size: medium; }
+  .telenovelas li {
+    font-size: small; }
+  .cortometrajes li {
+    font-size: small; }
+  .largometraje li {
+    font-size: small; }
+  .fototeatro {
+    width: 220px; }
+  .fotodrama {
+    width: 220px; }
+  .fotopublicidad {
+    width: 220px; }
+  .menuActing li {
+    width: 200px;
+    height: 310px; }
+  .caracas, .mainTeatro .mexico, .mainTeatro .maracaibo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center; }
+  .caracas li, .mainTeatro .mexico li, .mainTeatro .maracaibo li {
+    align-self: center;
+    width: 400px;
+    height: auto;
+    list-style: circle;
+    align-self: center;
+    font-size: medium; }
+  .maracaibo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center; }
+  .maracaibo li {
+    align-self: center;
+    width: 400px;
+    height: auto;
+    list-style: circle;
+    align-self: center;
+    font-size: medium; }
+  .mexico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center; }
+  .mexico li {
+    align-self: center;
+    width: 400px;
+    list-style: circle;
+    align-self: center;
+    font-size: medium; }
+  .catshow {
+    width: 450px;
+    height: 205px; } }
+
+@media screen and (max-width: 573px) {
+  .largometraje li {
+    width: 290px; }
+  .cortometrajes li {
+    width: 290px; }
+  .telenovelas li {
+    width: 290px; }
+  .FotoMain1 {
+    width: 400px; }
+  .FotoMain3 {
+    width: 400px; }
+  .catshow {
+    width: 150px; }
+  .mexico li {
+    font-size: small; }
+  .maraibo li {
+    font-size: small; }
+  .caracas li, .mainTeatro .mexico li, .mainTeatro .maracaibo li {
+    font-size: small; }
+  .yoactor {
+    width: 200px; }
+  .factory {
+    width: 200px; }
+  .novela {
+    width: 200px; } }
+
+.menu {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 6rem;
+  list-style: none;
+  font-size: larger;
+  letter-spacing: 3px; }
+  .menu *:after {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 4px; }
+  .menu .menu li {
+    width: 125px;
+    height: 50px;
+    transition: background-position-x 0.9s linear;
+    font-family: "Bebas Neue";
+    text-align: center; }
+    .menu .menu li:hover {
+      color: aliceblue;
+      font-size: 2.5rem;
+      text-shadow: 1px 1px 6px #fff; }
+
+.tituloAct {
+  color: aliceblue;
+  font-size: 1.5rem;
+  font-family: "Bebas Neue";
+  letter-spacing: 3px;
+  text-align: center; }
+
+.mainActing .fototeatro {
+  transition: background-position-x 0.9s linear;
+  opacity: 0.6; }
+  .mainActing .fototeatro:hover {
+    color: aliceblue;
+    text-shadow: 1px 1px 6px #fff;
+    opacity: 1; }
+
+.mainActing .fotodrama {
+  transition: background-position-x 0.9s linear;
+  opacity: 0.6; }
+  .mainActing .fotodrama:hover {
+    color: aliceblue;
+    text-shadow: 1px 1px 6px #fff;
+    opacity: 1; }
+
+.mainActing .fotopublicidad {
+  transition: background-position-x 0.9s linear;
+  opacity: 0.6; }
+  .mainActing .fotopublicidad:hover {
+    color: aliceblue;
+    text-shadow: 1px 1px 6px #fff;
+    opacity: 1; }
+
+.mainTeatro {
+  color: aliceblue;
+  font-family: "Bebas Neue";
+  letter-spacing: 3px;
+  margin-left: 40px;
+  max-width: 100%;
+  font-size: medium; }
+  .mainTeatro .tituloTeatro {
+    margin-top: 10px;
+    margin-left: 22px;
+    color: aliceblue;
+    font-family: "Bebas Neue";
+    letter-spacing: 3px;
+    font-size: x-large;
+    box-sizing: border-box; }
+  .mainTeatro .caracas, .mainTeatro .mexico, .mainTeatro .maracaibo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center; }
+  .mainTeatro .caracas li, .mainTeatro .mexico li, .mainTeatro .maracaibo li {
+    align-self: center;
+    width: 400px;
+    height: 350px;
+    list-style: none;
+    align-self: center; }
+  .mainTeatro .mexico li {
+    align-self: center;
+    width: auto;
+    list-style: none;
+    align-self: center; }
+  .mainTeatro .maracaibo li {
+    align-self: center;
+    width: 400px;
+    height: 200px;
+    list-style: none;
+    align-self: center; }

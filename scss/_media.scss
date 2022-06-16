@@ -2,6 +2,45 @@
     .imagenBio{
         width: 240px;
         }
+        .largometraje li{
+            width: 100%;
+          }
+          .cortometrajes li{
+            width: 100%;
+          }
+          .telenovelas li{
+            width: 100%;
+          }
+        .FotoMain1{
+          width: 250px;
+        }
+        .FotoMain2{
+          width: 400px;
+        }
+        .FotoMain3{
+          width: 250px;
+        }
+        .catshow{
+          width: 150px;
+        }
+        .mexico li{
+          font-size: small;
+        }
+        .maraibo li{
+          font-size: small;
+        }
+        .caracas li{
+          font-size: small;
+        }
+        .yoactor{
+          width: 250px;
+        }
+        .factory{
+          width: 250px;
+        }
+        .novela{
+          width: 250px;
+        }
 }
 @media screen and (max-width:768px){
     .mainBio{
@@ -18,4 +57,155 @@
             justify-self: center;
           }
       }
+      .titulo{
+        color: aliceblue;
+        font-size: 1.8rem;
+        text-align: center;
+        font-family: 'Bebas Neue';
+        letter-spacing: 3px;
+    }
+    .titulo2{
+        color: aliceblue;
+        font-size: 1rem;
+        text-align: center;
+        font-family: 'Bebas Neue';
+        letter-spacing: 3px;
+        font-style: italic;
+    }
+    .menu {
+    
+      font-size: medium;
+    
+    }
+    .caracas li{
+      align-self: center;
+      width: 300px;
+      height: 250px;
+      list-style: circle;
+      align-self: center;
+      font-size: small;
+    }
+    .fotosTeatro{
+      width: 150px;
+      height: 200px;
+    }
+    .mexico li{
+      font-size: small;
+    }
+    .maracaibo li{
+      font-size: small;
+    }
+    .tituloTeatro2{
+      font-size: medium;
+    }
+    .telenovelas li{
+      font-size: small;
+    }
+    .cortometrajes li{
+      font-size: small;
+    }
+    .largometraje li{
+      font-size: small;
+    }
+    .fototeatro{
+      width: 220px;
+    
+    }
+    .fotodrama{
+      width: 220px;
+    
+    }
+    .fotopublicidad{
+      width: 220px;
+    }
+    .menuActing li{
+      width: 200px;
+      height: 310px;
+    
+    }
+    .caracas{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-self: center;
+    }
+    .caracas li{
+      align-self: center;
+      width: 400px;
+      height: auto;
+      list-style: circle;
+      align-self: center;
+      font-size: medium;
+    }
+    .maracaibo{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-self: center;
+    }
+    .maracaibo li{
+      align-self: center;
+      width: 400px;
+      height: auto;
+      list-style: circle;
+      align-self: center;
+      font-size: medium;
+    }
+    .mexico{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-self: center;
+    }
+    .mexico li{
+      align-self: center;
+      width: 400px;
+      list-style: circle;
+      align-self: center;
+      font-size: medium;
+    }
+    .catshow{
+      width: 450px;
+      height: 205px;
+    }
 }
+@media screen and (max-width:573px){
+    .largometraje li{
+      width: 290px;
+    }
+    .cortometrajes li{
+      width: 290px;
+    }
+    .telenovelas li{
+      width: 290px;
+    }
+    .FotoMain1{
+      width: 400px;
+    }
+    .FotoMain3{
+      width: 400px;
+    }
+    .catshow{
+      width: 150px;
+    }
+    .mexico li{
+      font-size: small;
+    }
+    .maraibo li{
+      font-size: small;
+    }
+    .caracas li{
+      font-size: small;
+    }
+    .yoactor{
+      width: 200px;
+    }
+    .factory{
+      width: 200px;
+    }
+    .novela{
+      width: 200px;
+    }
+  }

@@ -432,9 +432,6 @@ fieldset legend{
   .telenovelas li{
     width: 100%;
   }
-.imagenBio{
-  width: 240px;
-  }
 .FotoMain1{
   width: 250px;
 }
@@ -468,14 +465,6 @@ fieldset legend{
 }
 /*Estilo Mobile tablets*/
 @media screen and (max-width:768px){
-.mainBio{
-  display: grid;
-  grid-template-rows: auto auto;
-  align-items: center stretch;
-  grid-template-areas: 
-  "imagenbio"
-  "TextBioP";
-}
 .titulo{
     color: aliceblue;
     font-size: 1.8rem;
@@ -490,13 +479,6 @@ fieldset legend{
     font-family: 'Bebas Neue';
     letter-spacing: 3px;
     font-style: italic;
-}
-
-.imagenbio{
-  margin-top: 10px;
-  max-width: 100%;
-  height: auto;
-  justify-self: center;
 }
 .menu {
 

@@ -1,0 +1,55 @@
+$colorText:aliceblue;
+$font:'Bebas Neue';
+.mainTeatro{
+    color: $colorText;
+    font-family: $font;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    max-width: 100%;
+    font-size: medium;
+    .tituloTeatro{
+        margin-top: 10px;
+        margin-left: 22px;
+        color: $colorText;
+        font-family: $font;
+        letter-spacing: 3px;
+        font-size: x-large;
+        box-sizing: border-box;
+      }
+      .caracas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-self: center;
+      }
+      .caracas li{
+        align-self: center;
+        width: 400px;
+        height: 350px;
+        list-style: none;
+        align-self: center;
+      
+      }
+      .mexico{
+        @extend .caracas;
+      }
+      .mexico li{
+        align-self: center;
+        width: auto;
+        list-style: none;
+        align-self: center;
+      
+      }
+      .maracaibo{
+        @extend .caracas;
+      }
+      .maracaibo li{
+        align-self: center;
+        width: 400px;
+        height: 200px;
+        list-style: none;
+        align-self: center;
+      
+      }
+  }
