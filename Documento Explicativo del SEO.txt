@@ -1,0 +1,61 @@
+Mixin = esta en el file SASS "_acting" (aplique 1 y funciono)
+Extend = en el scss "_teatro" (aplique uno de prueba)
+
+Bajé la calidad de imagenes como "foto Bio" "foto inicio" eliminé algunas fotos que no usaba
+
+
+	SEO
+
+	Keyword + description (dentro del head de cada html)
+
+Index=
+    <meta name="description" content="Web profesional de Jose Luis Barrera, actor Venezolano viviendo actualmente en Buenos Aires Argentina">
+    <meta name="keywords" content="actor, acting, películas, series, teatro, Argentina, Venezuela, actuación">
+
+Bio=
+    <meta name="description" content="Vida y recorrido Profesional de Jose Luis Barrera, Actor Venezolano reconocido">
+    <meta name="keywords" content="actor, acting, Biografía, series, teatro, Argentina, Venezuela, actuación, vida">
+
+Eventos=
+    <meta name="description" content="Registrate para tener la información más actualizada de los proximos cursos y eventos a cargo de Jose Luis Barrera Actor">
+    <meta name="keywords" content="actor, curso, eventos, teatro, clases, fechas, registro, email">
+
+Acting=
+    <meta name="description" content="Recorrido artistico de Jose Luis Barrera, Trabajos realizados en el mundo de la actuación">
+    <meta name="keywords" content="actor, acting, publicidad, series, teatro, Argentina, Venezuela, actuación">
+
+Teatro=
+    <meta name="description" content="Presentaciones de Jose Luis Barrera Actor en teatro internacional">
+    <meta name="keywords" content="actor, acting, internacional, Mexico, teatro, Argentina, Venezuela, actuación, teatral">
+
+Drama=
+    <meta name="description" content="Actuaciones Dramáticas de Jose Luis Barrera, Películas y Vídeos">
+    <meta name="keywords" content="actor, acting, internacional, drama, largometraje, Argentina, Venezuela, actuación, películas">
+
+Publicidad=
+    <meta name="description" content="Trabajos publicitarios realizados por Jose Luis Barrera Galue en Venezuela y Argentina">
+    <meta name="keywords" content="actor, acting, internacional, drama, publicidad, Argentina, Venezuela, actuación, productos">
+
+	Titles (dentro del head de cada html)
+
+Index=
+    <title>Jose Luis Actor | Web profesional de Jose Luis, actor Venezolano</title>
+
+Bio=
+    <title>Jose Luis Actor | Biografía y recorrido artístico del actor Venezolano</title>
+
+Eventos=
+    <title>Eventos | Regístrate para saber los últimos eventos, cursos y actuaciones de Jose Luis Barrera</title>
+
+Acting=
+    <title>Acting | Trabajos realizados por Jose Luis Barrera Galue, teatro, Drama y Publicidad</title>
+
+Teatro=
+    <title>Teatro | Obras teatrales protagonizadas por Jose Luis Barrera Galue</title>
+
+Drama=
+    <title>Drama | Actuaciones en Largometrajes y cortometrajes por Jose Luis Barrera Galue</title>
+
+Publicidad=
+    <title>Comerciales | Trabajos publicitarios, protagonizados por Jose Luis Barrera Galue </title>
+

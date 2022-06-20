@@ -48,6 +48,7 @@ header {
 
 body .volver {
   transition: background-position-x 0.9s linear;
+  color: aliceblue;
   font-family: "Bebas Neue";
   letter-spacing: 3px;
   margin-left: 17%;
@@ -334,3 +335,70 @@ body .volver {
     height: 200px;
     list-style: none;
     align-self: center; }
+
+.registroData {
+  font: "Bebas Neue"; }
+
+.tituloTeatro2 {
+  letter-spacing: 3px;
+  margin-top: 15px;
+  margin-left: 25%;
+  font-size: x-large;
+  box-sizing: border-box;
+  color: aliceblue; }
+
+.contenidoDrama {
+  color: aliceblue; }
+  .contenidoDrama .largometraje {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    box-sizing: border-box; }
+  .contenidoDrama .largometraje li {
+    align-self: center;
+    width: 450px;
+    list-style: none; }
+  .contenidoDrama .cortometrajes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    box-sizing: border-box; }
+  .contenidoDrama .cortometrajes li {
+    align-self: center;
+    width: 450px;
+    height: auto;
+    list-style: none; }
+  .contenidoDrama .telenovelas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    box-sizing: border-box; }
+  .contenidoDrama .telenovelas li {
+    align-self: center;
+    width: 450px;
+    height: auto;
+    list-style: none; }
+
+.publicidad {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 7%; }
+
+.publicidad li {
+  color: aliceblue;
+  font-family: "Bebas Neue";
+  text-align: center;
+  letter-spacing: 3px;
+  width: 570px;
+  margin: 0.4rem;
+  list-style: none;
+  font-size: larger; }

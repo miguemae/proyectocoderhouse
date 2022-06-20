@@ -1,0 +1,56 @@
+$colorText:aliceblue;
+$font:'Bebas Neue';
+.tituloTeatro2{
+    letter-spacing: 3px;
+    margin-top: 15px;
+    margin-left: 25%;
+    font-size: x-large;
+    box-sizing: border-box;
+    color: $colorText;
+  }
+.contenidoDrama{
+    color: $colorText;
+.largometraje{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+  }
+  .largometraje li{
+    align-self: center;
+    width: 450px;
+    list-style: none;
+  }
+  .cortometrajes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+  }
+  .cortometrajes li{
+    align-self: center;
+    width: 450px;
+    height: auto;
+    list-style: none;
+  }
+  .telenovelas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+  }
+  .telenovelas li{
+    align-self: center;
+    width: 450px;
+    height: auto;
+    list-style: none;
+  }
+}

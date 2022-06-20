@@ -1,0 +1,18 @@
+$colorText:aliceblue;
+$font:'Bebas Neue';
+.publicidad{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 7%;
+  }
+  .publicidad li{
+    color: $colorText;
+    font-family: $font;
+    text-align: center;
+    letter-spacing: 3px;
+    width: 570px;
+    margin: 0.4rem;
+    list-style: none;
+    font-size: larger;
+  }

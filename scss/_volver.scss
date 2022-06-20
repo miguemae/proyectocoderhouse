@@ -3,6 +3,7 @@ $font:'Bebas Neue';
 body{
 .volver{
     transition: background-position-x 0.9s linear;
+    color: $colorText;
     font-family: $font;
     letter-spacing: 3px;
     margin-left: 17%;
