@@ -2,11 +2,7 @@ $colorText:aliceblue;
 $font:'Bebas Neue';
 .mainTeatro{
     color: $colorText;
-    font-family: $font;
-    letter-spacing: 3px;
-    margin-left: 40px;
     max-width: 100%;
-    font-size: medium;
     .tituloTeatro{
         margin-top: 10px;
         margin-left: 22px;
@@ -20,23 +16,24 @@ $font:'Bebas Neue';
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-right: 20px;
+        margin-left: 15px;
         justify-content: space-between;
         align-self: center;
       }
       .caracas li{
         align-self: center;
         width: 400px;
-        height: 350px;
+        height: 150px;
         list-style: none;
-        align-self: center;
       
       }
       .mexico{
         @extend .caracas;
       }
       .mexico li{
-        align-self: center;
         width: auto;
+        height: 450px;
         list-style: none;
         align-self: center;
       
@@ -47,9 +44,8 @@ $font:'Bebas Neue';
       .maracaibo li{
         align-self: center;
         width: 400px;
-        height: 200px;
+        height: 150px;
         list-style: none;
-        align-self: center;
       
       }
   }

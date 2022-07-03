@@ -4,15 +4,15 @@ $font:'Bebas Neue';
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin-left: 7%;
+    align-self: center;
+    margin-left: 5%;
+    width: auto;
   }
   .publicidad li{
     color: $colorText;
-    font-family: $font;
     text-align: center;
-    letter-spacing: 3px;
     width: 570px;
-    margin: 0.4rem;
+    margin-top: 30px;
     list-style: none;
     font-size: larger;
   }

@@ -4,9 +4,8 @@ body{
 .volver{
     transition: background-position-x 0.9s linear;
     color: $colorText;
-    font-family: $font;
-    letter-spacing: 3px;
-    margin-left: 17%;
+    text-align: right;
+    margin-right: 20%;
     font-size: larger;
     transition: background-position-x 0.9s linear;
     opacity: 0.4;
@@ -17,3 +16,5 @@ body{
     }
 }
 }
+
+
